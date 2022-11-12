@@ -17,6 +17,10 @@
 }
 
 .intros {
+  @include media-breakpoint-down(sm) {
+    padding: 0 2rem;
+  }
+
   .video-box {
     position: relative;
 
