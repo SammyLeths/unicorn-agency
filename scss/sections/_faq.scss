@@ -1,0 +1,11 @@
+@use "../custom" as *;
+
+.faq {
+  &__accordion {
+    width: 80%;
+
+    @include media-breakpoint-down(sm) {
+      width: 95%;
+    }
+  }
+}
