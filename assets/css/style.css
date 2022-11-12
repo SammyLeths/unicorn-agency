@@ -10915,8 +10915,20 @@ textarea.form-control-lg {
 .menu .navbar-brand-img {
   width: 100px;
 }
+@media (max-width: 991.98px) {
+  .menu .navbar-collapse.show {
+    box-shadow: 0 0.5rem 1rem -0.8rem rgba(0, 0, 0, 0.25);
+    padding-top: 0.5rem;
+    padding-bottom: 1.8rem;
+  }
+}
 .menu li {
-  padding: 0 0.7rem;
+  padding: 0.5rem 0.7rem;
+}
+@media (max-width: 991.98px) {
+  .menu li {
+    border-bottom: 1px solid #fff;
+  }
 }
 .menu li a {
   color: #fff;
