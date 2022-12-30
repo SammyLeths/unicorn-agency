@@ -17,13 +17,17 @@
 .contact-box {
   position: relative;
 
+  @include media-breakpoint-up(xl) {
+    justify-content: center;
+  }
+
   &__icon {
-    width: 2rem;
+    width: 2.5rem;
     stroke: $primary;
     padding-top: 0.5rem;
 
     @include media-breakpoint-up(sm) {
-      width: 4rem;
+      width: 3.5rem;
     }
   }
 
@@ -36,7 +40,7 @@
       text-decoration: none;
       font-size: 1rem;
 
-      @include media-breakpoint-up(sm) {
+      @include media-breakpoint-up(lg) {
         font-size: 1.4rem;
       }
     }

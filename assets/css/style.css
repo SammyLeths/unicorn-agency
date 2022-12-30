@@ -49,7 +49,7 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-sans-serif: "Nunito", sans-serif;
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
@@ -10879,7 +10879,7 @@ textarea.form-control-lg {
   font-family: "Poppins", sans-serif;
 }
 .display-3--title {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-transform: capitalize;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -11221,14 +11221,19 @@ textarea.form-control-lg {
 .contact-box {
   position: relative;
 }
+@media (min-width: 1200px) {
+  .contact-box {
+    justify-content: center;
+  }
+}
 .contact-box__icon {
-  width: 2rem;
+  width: 2.5rem;
   stroke: #4864ba;
   padding-top: 0.5rem;
 }
 @media (min-width: 576px) {
   .contact-box__icon {
-    width: 4rem;
+    width: 3.5rem;
   }
 }
 .contact-box__info {
@@ -11240,7 +11245,7 @@ textarea.form-control-lg {
   text-decoration: none;
   font-size: 1rem;
 }
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .contact-box__info--title {
     font-size: 1.4rem;
   }
