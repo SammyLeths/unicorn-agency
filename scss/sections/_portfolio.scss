@@ -9,14 +9,15 @@
   }
 }
 
-.portfolio-card.hide {
-  display: none;
+.portfolio-card {
+  border-radius: 15px;
 }
 
 .portfolio-box {
   position: relative;
   width: 100%;
   max-height: 18.5rem;
+  border-radius: 10px;
   overflow: hidden;
   margin-bottom: 1.2rem;
   border-top: 0.5rem solid $han-blue-light;
@@ -50,8 +51,7 @@
           opacity: 70%;
         }
       }
-
-      h4 {
+      family h4 {
         text-transform: uppercase;
         display: block;
       }

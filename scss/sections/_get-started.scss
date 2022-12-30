@@ -8,6 +8,28 @@
   @include media-breakpoint-down(sm) {
     padding: 7rem 1rem;
   }
+
+  &__box {
+    &--left {
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+
+      @include media-breakpoint-up(lg) {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 20px;
+      }
+    }
+
+    &--right {
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+
+      @include media-breakpoint-up(lg) {
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0;
+      }
+    }
+  }
 }
 
 .cta-info {

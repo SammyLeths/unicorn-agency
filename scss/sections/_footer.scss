@@ -73,6 +73,10 @@
         font-size: 1.6rem;
       }
     }
+
+    &:hover {
+      color: $primary;
+    }
   }
 }
 
@@ -142,5 +146,9 @@
     color: $white;
     font-size: 1rem;
     @include absoluteCenter;
+  }
+
+  &:hover {
+    background-color: $secondary;
   }
 }

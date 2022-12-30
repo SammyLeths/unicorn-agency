@@ -11098,14 +11098,15 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 
-.portfolio-card.hide {
-  display: none;
+.portfolio-card {
+  border-radius: 15px;
 }
 
 .portfolio-box {
   position: relative;
   width: 100%;
   max-height: 18.5rem;
+  border-radius: 10px;
   overflow: hidden;
   margin-bottom: 1.2rem;
   border-top: 0.5rem solid #b5c1e3;
@@ -11138,7 +11139,7 @@ textarea.form-control-lg {
 .portfolio-box .portfolio-info .caption a:hover {
   opacity: 70%;
 }
-.portfolio-box .portfolio-info .caption h4 {
+.portfolio-box .portfolio-info .caption family h4 {
   text-transform: uppercase;
   display: block;
 }
@@ -11161,6 +11162,26 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .get-started {
     padding: 7rem 1rem;
+  }
+}
+.get-started__box--left {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+@media (min-width: 992px) {
+  .get-started__box--left {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 20px;
+  }
+}
+.get-started__box--right {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+@media (min-width: 992px) {
+  .get-started__box--right {
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
   }
 }
 
@@ -11276,6 +11297,9 @@ textarea.form-control-lg {
     font-size: 1.6rem;
   }
 }
+.footer-sm a:hover {
+  color: #4864ba;
+}
 
 .company-info hr {
   width: 60px;
@@ -11331,6 +11355,9 @@ textarea.form-control-lg {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.back-to-top:hover {
+  background-color: #8fb8de;
 }
 
 /*# sourceMappingURL=style.css.map */
