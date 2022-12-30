@@ -14,7 +14,7 @@
     "responsive-template"
   ],
   "author": "Sammy Leths",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "sass": "^1.56.1"
   },
