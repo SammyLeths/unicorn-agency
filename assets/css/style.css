@@ -10906,11 +10906,12 @@ textarea.form-control-lg {
 }
 
 .gradient {
-  background: linear-gradient(to right, rgba(72, 100, 186, 0.95), rgba(143, 184, 222, 0.95));
+  background: black;
 }
 
 .menu {
-  background: linear-gradient(to right, rgba(72, 100, 186, 0.95), rgba(143, 184, 222, 0.95));
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), linear-gradient(to right, rgba(72, 100, 186, 0.95), rgba(143, 184, 222, 0.95));
+  /* background: linear-gradient(to right, rgba(72, 100, 186, 0.95), rgba(143, 184, 222, 0.95)); */
 }
 .menu .navbar-brand-img {
   width: 100px;
@@ -10953,7 +10954,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .intro-section {
-    padding: 8rem 0 0 0;
+    padding: 14rem 0;
   }
 }
 
