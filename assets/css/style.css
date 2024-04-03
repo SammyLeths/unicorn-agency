@@ -11390,6 +11390,7 @@ textarea.form-control-lg {
   border: 2px solid white;
   background-color: transparent;
   padding: 10px 20px;
+  margin-left: 2%;
   font-size: 16px;
   font-weight: bold;
   color: white;
@@ -11400,6 +11401,49 @@ textarea.form-control-lg {
 .custom-button:hover {
 
   color: white;
+}
+
+/* Estilos para la galería de imágenes */
+.gallery-container {
+  overflow-x: auto; /* Permitir desplazamiento horizontal */
+  overflow-y: hidden; /* Ocultar desplazamiento vertical */
+  max-height: 400px; /* Altura máxima */
+  display: flex;
+  padding: 20px; /* Agregar un espacio interior al contenedor */
+}
+
+.gallery {
+  display: flex;
+}
+
+.gallery img {
+  max-width: 100%;
+  margin-right: 20px; /* Espacio entre imágenes */
+  padding: 10px; /* Agregar espacio interno a las imágenes */
+  background-color: #f0f0f0; /* Color de fondo gris */
+}
+
+/* Estilos para la sección de logotipos de empresa */
+.logo-container {
+  overflow-x: auto; /* Permitir desplazamiento horizontal */
+  overflow-y: hidden; /* Ocultar desplazamiento vertical */
+  max-height: 100px; /* Altura máxima */
+  display: flex;
+  padding: 20px; /* Agregar un espacio interior al contenedor */
+}
+
+.logo-box {
+  overflow: hidden; /* Ocultar el desbordamiento */
+}
+
+.logo-box img {
+  margin-right: 10px; /* Espacio entre logotipos */
+}
+
+.blog-card {
+  cursor: pointer; /* Cambiar cursor a pointer */
+  border-radius: 15px; /* Agregar bordes redondeados */
+  border: none; /* Quitar borde */
 }
 
 
