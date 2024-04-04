@@ -499,6 +499,7 @@ progress {
   font-size: calc(1.575rem + 3.9vw);
   font-weight: 300;
   line-height: 1.2;
+  
 }
 @media (min-width: 1200px) {
   .display-2 {
@@ -510,6 +511,7 @@ progress {
   font-size: calc(1.525rem + 3.3vw);
   font-weight: 300;
   line-height: 1.2;
+  margin-bottom: 50px;
 }
 @media (min-width: 1200px) {
   .display-3 {
@@ -593,6 +595,9 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  
+
+
 }
 
 .img-thumbnail {
@@ -10996,7 +11001,8 @@ textarea.form-control-lg {
 }
 .featured-in__logo-box {
   max-width: 100%;
-  height: 3rem;
+  filter: grayscale(100);
+
   margin-bottom: 2rem;
   padding: 0.5em;
   text-align: center;
@@ -11006,7 +11012,6 @@ textarea.form-control-lg {
   height: 100%;
 }
 .featured-in__logo-box img:hover {
-  filter: grayscale(120);
 }
 
 .services {
