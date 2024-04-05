@@ -1982,6 +1982,7 @@ progress {
   font-size: 0.875rem;
 }
 
+
 .form-text {
   margin-top: 0.25rem;
   font-size: 0.875em;
@@ -11170,7 +11171,7 @@ textarea.form-control-lg {
 
 .get-started {
   padding: 7rem 0;
-  background-color: #e9ecef;
+  background-color: #000000;
 }
 @media (max-width: 575.98px) {
   .get-started {
