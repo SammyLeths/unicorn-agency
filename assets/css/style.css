@@ -11003,7 +11003,7 @@ textarea.form-control-lg {
   max-width: 100%;
   filter: grayscale(100);
 
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   padding: 0.5em;
   text-align: center;
   position: relative;

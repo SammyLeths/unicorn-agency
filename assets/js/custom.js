@@ -1,3 +1,13 @@
+
+// JavaScript para activar la clase 'active' cuando se hace clic en el botón navbar-toggler
+document.addEventListener("DOMContentLoaded", function() {
+  const navbarToggler = document.querySelector(".navbar-toggler");
+  navbarToggler.addEventListener("click", function() {
+    navbarToggler.classList.toggle("active");
+  });
+});
+
+
 // Filter portfolio
 
 const filters = document.querySelectorAll(".filter-btn");
