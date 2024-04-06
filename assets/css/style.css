@@ -11168,12 +11168,12 @@ textarea.form-control-lg {
 }
 
 .get-started {
-  padding: 4rem 0;
+  padding: 3rem 0;
   background-color: #000000;
 }
 @media (max-width: 575.98px) {
   .get-started {
-    padding: 7rem 1rem;
+    /* padding: 7rem 1rem; */
   }
 }
 .get-started__box--left {
@@ -11227,7 +11227,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .form {
-    padding: 1.5rem;
+    padding: 1rem;
   }
 }
 .form button {
@@ -11450,4 +11450,13 @@ textarea.form-control-lg {
   border: none; /* Quitar borde */
 }
 
+
+.custom-button {
+}
+
+@media screen and (max-width: 590px) {
+  .custom-button {
+    margin-bottom: 4rem;
+  }
+}
 
