@@ -52,7 +52,9 @@
           </li>
     
         </ul>
-        <button type="button" class="custom-button mt-4">Tengo un proyecto</button>
+        <button type="button" class="custom-button"  aria-current="page" href="paginas/contacto.html">
+          <a class="nav-link active" aria-current="page" href="paginas/contacto.html">Tengo un proyecto</a>
+        </button>
       </div>
     </div>
   </nav>
@@ -155,9 +157,9 @@
         <div class="row">
            
             <div class="col-md-4 mb-4">
-                <a href="pagina1.html" class="d-block position-relative">
-                    <div class="bg-image position-relative"
-                        style="background-color: greenyellow; height: 300px; background-size: cover;">
+                <a href="pagina1.html" class="d-block position-relative" >
+                    <div class="bg-image position-relative" 
+                        style="background-color: greenyellow; height: 300px; background-size: cover;border-radius: 12px;">
                         <div class="overlay position-absolute top-50 start-50 translate-middle text-center">
                             <h3 class="text-black">
                               <a class="nav-link active" aria-current="page" href="paginas/desarrolloweb.html">Desarrollo Web</a>
@@ -720,13 +722,13 @@
       <div class="row text-center">
         <h1 class="display-3 fw-bold ">Proyectos</h1>
         <!-- <div class="heading-line"></div> -->
-        <p class="lead">Frequently asked questions, get knowledge before hand</p>
+        <p class="lead">Algunos proyectos recientes, get knowledge before hand</p>
       </div>
 
-      <div class="row">
+      <!-- <div class="row">
         <div class="col-md-12">
           <div class="gallery-container">
-            <!-- Aquí van las imágenes -->
+          
             <div class="gallery">
               <img src="images/portfolio/portfolio-9.jpg" alt="Proyecto 2">
               <img src="images/portfolio/portfolio-9.jpg" alt="Proyecto 2">
@@ -738,7 +740,7 @@
               <img src="images/portfolio/portfolio-9.jpg" alt="Proyecto 2">
 
 
-              <!-- Añade más imágenes según sea necesario -->
+          
             </div>
           </div>
         </div>
@@ -747,7 +749,7 @@
     </div>
     </div>
     </div>
-  </section>
+  </section> -->
 
 
 
@@ -823,68 +825,24 @@
       </div> -->
 
     <!-- START THE PORTFOLIO ITEMS -->
-    <!-- 
+    <section class="container">
+
+   
       <div class="row">
-        <div class="col-lg-4 col-md-6 portfolio-card" data-tags="all, website">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-1.jpg" alt="portfolio 1 image" title="portfolio 1 picture"
-              class="img-fluid">
-            <div class="div portfolio-info">
-              <div class="caption">
-                <a href="images/portfolio/portfolio-1.jpg" class="glightbox2">
-                  <i class="fas fa-magnifying-glass mb-3"></i>
-                </a>
-                <h4>Website project one</h4>
-                <p>website</p>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="col-lg-4 col-md-6 portfolio-card" data-tags="all, design">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-2.jpg" alt="portfolio 2 image" title="portfolio 2 picture"
-              class="img-fluid">
-            <div class="div portfolio-info">
-              <div class="caption">
-                <a href="images/portfolio/portfolio-2.jpg" class="glightbox2">
-                  <i class="fas fa-magnifying-glass mb-3"></i>
-                </a>
-                <h4>Design project one</h4>
-                <p>design</p>
-              </div>
-            </div>
+          <div class="portfolio-box">
+              <a href="images/portfolio/portfolio-4.jpg" class="glightbox2">
+                  <img src="images/portfolio/portfolio-4.jpg" alt="portfolio 4 image" title="portfolio 4 picture" class="img-fluid">
+                  <div class="div portfolio-info">
+                      <div class="caption">
+                          <i class="fas fa-magnifying-glass mb-3"></i>
+                          <h4>Diseño Web</h4>
+                          <p>Estrategia Digital</p>
+                      </div>
+                  </div>
+              </a>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-card" data-tags="all, mockup">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-3.jpg" alt="portfolio 3 image" title="portfolio 3 picture"
-              class="img-fluid">
-            <div class="div portfolio-info">
-              <div class="caption">
-                <a href="images/portfolio/portfolio-3.jpg" class="glightbox2">
-                  <i class="fas fa-magnifying-glass mb-3"></i>
-                </a>
-                <h4>Mockup project one</h4>
-                <p>mockup</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-card" data-tags="all, design">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-4.jpg" alt="portfolio 4 image" title="portfolio 4 picture"
-              class="img-fluid">
-            <div class="div portfolio-info">
-              <div class="caption">
-                <a href="images/portfolio/portfolio-4.jpg" class="glightbox2">
-                  <i class="fas fa-magnifying-glass mb-3"></i>
-                </a>
-                <h4>Design project two</h4>
-                <p>design</p>
-              </div>
-            </div>
-          </div>
-        </div>
+      </div>
         <div class="col-lg-4 col-md-6 portfolio-card" data-tags="all, website">
           <div class="portfolio-box shadow">
             <img src="images/portfolio/portfolio-5.jpg" alt="portfolio 5 image" title="portfolio 5 picture"
@@ -961,21 +919,14 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
   </section>
 
   <!-- START SECTION 8 - GET STARTED -->
 
   <section id="contact" class="get-started">
     <div class="container">
-      <div class="row text-center">
-        <h1 class="display-3 fw-bold text-capitalize">Contacto</h1>
-        <div class="heading-line"></div>
-        <p class="lh-lg pb-3 pb-md-5">
-          Si te ha gustado lo que has visto y te gustaría proponernos que formemos parte de tu proyecto estaremos
-          encantados de ecucharte. Rellena el formulario y te responderemo loantes posible.
-        </p>
-      </div>
+      
 
       <!-- START THE CTA CONTENT -->
 
