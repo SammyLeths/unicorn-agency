@@ -8,10 +8,11 @@
   <meta property="og:image" content="https://mugshotbot.com/m/dVvCf0eE">
   <meta property="twitter:card" content="summary_large_image">
   <link rel="shortcut icon" type="image/png" href="images/unicorn-favicon.png" />
-  <title>Unicorn Agency</title>
+  <title>kweb - Marketing & Desarrollo Web</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/fontawesome.css">
   <link rel="stylesheet" href="assets/vendors/css/glightbox.min.css">
+  <script src="assets/js/custom.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900;1000&display=swap"
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
@@ -24,36 +25,39 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark menu fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="images/logo.png" alt="logo image" class="navbar-brand-img">
+      
+      <a class="navbar-brand fw-bold" href="#" style="font-size: 1.7rem;">I&lt;.web
+        <!-- <img src="images/kLogo.png" alt="logo image" class="navbar-brand-img"> -->
       </a>
+   
+      
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon-cross"></span> 
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav mb-sm-4 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="paginas/desarrolloweb.html">Desarrollo Web</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link" href="paginas/marketingdigital.html ">Marketing Digital</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#testimonials">Testimonials</a>
+            <a class="nav-link" href="paginas/servicios.html">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#faq">Faqs</a>
+            <a class="nav-link" href="paginas/agencia.html">Agencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-link active" aria-current="page" href="paginas/blog.html">Blog</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
+    
         </ul>
-        <button type="button" class="rounded-pill btn-rounded">+1 (332) 9810-220 <span><i
-              class="fas fa-phone-alt"></i></span></button>
+        <button type="button" class="custom-button"  aria-current="page" href="paginas/contacto.html">
+          <a class="nav-link active" aria-current="page" href="paginas/contacto.html">Tengo un proyecto</a>
+        </button>
       </div>
     </div>
   </nav>
@@ -68,15 +72,18 @@
 
         <div class="col-md-6 intros text-start">
           <h1 class="display-2">
-            <span class="display-2--intro">Hi!, Welcome to Unicorn Agency</span>
-            <span class="display-2--description lh-base">
-              We're a multiple award winning digital agency with expertise in a diverse range of digital services and
-              solutions
-            </span>
+            <span class="display-2--intro">Marketing digital y Desarrollo web para tu negocio</span>
+            <p class="display-2--description lh-base small">
+              Somos tu puerta de entrada al éxito en el mundo digital. Con una sólida experiencia en webs y marketing
+              digital,
+              estamos aquí para llevar tu presencia en línea al siguiente nivel...
+              ¿Listo para el cambio?
+
+            </p>
           </h1>
-          <a href="#contact">
-            <button type="button" class="rounded-pill btn-rounded">
-              Get in Touch<span><i class="fas fa-arrow-right"></i></span>
+          <a id="services" href="#servicios">
+            <button type="button" class=" btn-rounded">
+              Más información<span><i class="fas fa-arrow-right"></i></span>
             </button>
           </a>
         </div>
@@ -97,20 +104,158 @@
         </div>
       </div>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#ffffff" fill-opacity="1"
         d="M0,96L48,80C96,64,192,32,288,48C384,64,480,128,576,133.3C672,139,768,85,864,80C960,75,1056,117,1152,128C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
       </path>
-    </svg>
+    </svg> -->
   </section>
+
+
+  <!-- START SECTION 4 - THE SERVICES -->
+
+  <section id="services" class="services">
+    <div class="container">
+
+
+      <!-- ABOUT CONTENT -->
+
+      <div class=" pb-2 my-3">
+        <div class=" ">
+          <div class="bg-white p-4">
+            <h2 class="fw-bold text-start">
+              No quieres una agencia de desarrollo web,
+
+            </h2>
+            <h2 class="fw-bold text-start">
+
+              quieres vender más
+            </h2>
+          </div>
+        </div>
+        <div class="bg-white p-4 text-start">
+          <p class="fw-light lead">
+            Tu exito comienza aqui.
+
+          </p>
+          <p class="fw-light lead">
+            Como agencia digital 360, simplificamos la innovación y transformación digital, fundamentales en el entorno
+            empresarial actual. Ofrecemos una amplia gama de servicios, desde branding digital y diseño web hasta
+            marketing digital y estrategias de inbound marketing.
+
+          </p>
+          <p class="fw-light lead">
+            Adaptamos nuestros servicios a las necesidades específicas de cada cliente, asegurando un enfoque
+            personalizado para potenciar su marca.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- START GALLERY SERVICES -->
+
+  <section id="galeria" class="galeria">
+    <div class="container">
+
+        <div class="row">
+           
+            <div class="col-md-4 mb-4">
+                <a href="pagina1.html" class="d-block position-relative" >
+                    <div class="bg-image position-relative" 
+                        style="background-color: greenyellow; height: 300px; background-size: cover; border-radius: 16px;">
+                        <div class="overlay position-absolute top-50 start-50 translate-middle text-center">
+                            <h3 class="text-black">
+                              <a class="nav-link active" aria-current="page" href="paginas/desarrolloweb.html">Desarrollo Web</a>
+                            </h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="pagina1.html" class="d-block position-relative">
+                    <div class="bg-image position-relative"
+                        style="background-color: greenyellow; height: 300px; background-size: cover;  border-radius: 16px;">
+                        <div class="overlay position-absolute top-50 start-50 translate-middle text-center">
+                            <h3 class="text-black">
+                              <a class="nav-link active" aria-current="page" href="paginas/marketingdigital.html">Marketing Digital</a>
+                            </h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+              <a href="pagina1.html" class="d-block position-relative">
+                  <div class="bg-image position-relative"
+                      style="background-color: greenyellow; height: 300px; background-size: cover;  border-radius: 16px;">
+                      <div class="overlay position-absolute top-50 start-50 translate-middle text-center">
+                          <h3 class="text-black">
+                            <a class="nav-link active" aria-current="page" href="paginas/diseñoweb.html">Diseño Web</a>
+                          </h3>
+                      </div>
+                  </div>
+              </a>
+          </div>
+        </div> <!-- Cierre del primer div.row -->
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <a href="pagina1.html" class="d-block position-relative">
+                    <div class="bg-image position-relative"
+                        style="background-color: greenyellow; height: 300px; background-size: cover;  border-radius: 16px;">
+                        <div class="overlay position-absolute top-50 start-50 translate-middle text-center">
+                            <h3 class="text-black">
+                              <a class="nav-link active" aria-current="page" href="paginas/diseñoweb.html">Branding</a>
+
+                            </h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="pagina1.html" class="d-block position-relative">
+                    <div class="bg-image position-relative"
+                        style="background-color: greenyellow; height: 300px; background-size: cover;  border-radius: 16px;">
+                        <div class="overlay position-absolute top-50 start-50 translate-middle text-center">
+                            <h3 class="text-black">
+                              <a class="nav-link active" aria-current="page" href="paginas/diseñoweb.html">Ecommerce</a>
+
+                            </h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="pagina1.html" class="d-block position-relative">
+                    <div class="bg-image position-relative"
+                        style="background-color: greenyellow; height: 300px; background-size: cover;  border-radius: 16px;">
+                        <div class="overlay position-absolute top-50 start-50 translate-middle text-center">
+                            <h3 class="text-black">
+                              <a class="nav-link active" aria-current="page" href="paginas/diseñoweb.html">Estrategia Digital</a>
+                            </h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div> <!-- Cierre del segundo div.row -->
+
+    </div>
+</section>
+
+
 
   <!-- START THE FEATURED IN SECTION -->
 
   <section id="featured-in" class="featured-in">
     <div class="container">
-      <div class="row text-center">
-        <h4 class="fw-bold lead mb-3">Trusted by companies like</h4>
-        <div class="heading-line mb-5"></div>
+      <div class="row text-center mt-5">
+        <h4 class="fw-bold lead mb-3 mt-5">Trabajamos para Marcas</h4>
+        <p>Desde que empezamos hemos prestado un servicio de confianza a nuestros clientes.<br>Hemos tenido el honor de
+          ser la empresa elegida por las siguientes sociedades:</br> </p>
+
       </div>
     </div>
 
@@ -119,79 +264,59 @@
     <div class="container">
       <div class="row">
         <div class="col-6 col-md-4 col-lg-2">
-          <div class="featured-in__logo-box shadow-sm"><img src="images/companies/company-1.png" alt="Company 1 logo"
-              title="Company 1 Logo" class="img-fluid"></div>
+          <div class="featured-in__logo-box "><img src="images/portfolio/Economipedia.png" alt="Company 1 logo"
+              title="Company 1 Logo" class="img-fluid" style="max-width: 100%;"></div>
         </div>
         <div class="col-6 col-md-4 col-lg-2">
-          <div class="featured-in__logo-box shadow-sm"><img src="images/companies/company-2.png" alt="Company 2 logo"
-              title="Company 2 Logo" class="img-fluid"></div>
+          <div class="featured-in__logo-box"><img src="images/portfolio/Somosquiere.png" alt="Company 2 logo"
+              title="Company 2 Logo" class="img-fluid" style="max-width: 100%;"></div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="featured-in__logo-box "><img src="images/portfolio/Longevitas.png" alt="Company 4 logo"
+              title="Company 4 Logo" class="img-fluid" style="max-width: 100%;"></div>
         </div>
         <div class="col-6 col-md-4 col-lg-2">
-          <div class="featured-in__logo-box shadow-sm"><img src="images/companies/company-3.png" alt="Company 3 logo"
-              title="Company 3 Logo" class="img-fluid"></div>
+          <div class="featured-in__logo-box "><img src="images/portfolio/micosguarderia.png" alt="Company 3 logo"
+              title="Company 3 Logo" class="img-fluid" style="max-width: 100%;"></div>
         </div>
         <div class="col-6 col-md-4 col-lg-2">
-          <div class="featured-in__logo-box shadow-sm"><img src="images/companies/company-4.png" alt="Company 4 logo"
-              title="Company 4 Logo" class="img-fluid"></div>
+          <div class="featured-in__logo-box "><img src="images/portfolio/casadecor.png" alt="Company 5 logo"
+              title="Company 5 Logo" class="img-fluid" style="max-width: 100%;"></div>
         </div>
         <div class="col-6 col-md-4 col-lg-2">
-          <div class="featured-in__logo-box shadow-sm"><img src="images/companies/company-5.png" alt="Company 5 logo"
-              title="Company 5 Logo" class="img-fluid"></div>
-        </div>
-        <div class="col-6 col-md-4 col-lg-2">
-          <div class="featured-in__logo-box shadow-sm"><img src="images/companies/company-6.png" alt="Company 6 logo"
-              title="Company 6 Logo" class="img-fluid"></div>
+          <div class="featured-in__logo-box"><img src="images/portfolio/Economipedia.png" alt="Company 6 logo"
+              title="Company 6 Logo" class="img-fluid" style="max-width: 100%;"></div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- START SECTION 4 - THE SERVICES -->
 
-  <section id="services" class="services">
-    <div class="container mb-5">
-      <div class="row text-center">
-        <h1 class="display-3 fw-bold">Our Services</h1>
-        <div class="heading-line mb-1"></div>
-      </div>
 
-      <!-- START THE DESCRIPTION CONTENT -->
 
-      <div class="row pb-2 my-3">
-        <div class="col-md-6 border-right">
-          <div class="bg-white p-4">
-            <h2 class="fw-bold text-capitalize text-center">
-              Our Services Range From Initial Design To Deployment Anywhere Anytime
-            </h2>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="bg-white p-4 text-start">
-            <p class="fw-light lead">
-              Lorem ipsum dolor sit amet consectetur architecto magni, dicta maxime laborum temporibus dolorem esse
-              doloremque illo quas nisi enim molestias. Tempore ducimus molestiae in dolore enim.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+  <!-- <section id="services" class="services"> -->
 
-    <!-- START THE CONTENT FOR THE SERVICES -->
 
-    <div class="container px-5">
 
-      <!-- START THE MARKETING CONTENT -->
-      <div class="row px-0 px-lg-5">
+  <!-- START THE DESCRIPTION CONTENT -->
+
+
+  
+
+
+
+  <!-- START THE MARKETING CONTENT -->
+  <!-- <div class="row px-0 px-lg-5">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services my-auto order-1 order-md-0">
           <div class="services__content order-sm-0">
             <div class="icon d-block fas fa-paper-plane"></div>
-            <h3 class="display-3--title mt-1">Marketing</h3>
+            <h3 class="display-3--title mt-1">Estrategia Digital</h3>
             <p class="lh-lg">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti culpa sit pariatur cupiditate possimus
-              nulla cum magnam ullam fuga nobis? Vel neque unde maxime cupiditate laborum ducimus dolorum.
+              Potenciamos tu marca en el mundo digital con estrategias adaptadas a tus necesidades.
             </p>
             <a href="#contact">
-              <button type="button" class="rounded-pill btn-rounded border-primary">Learn more<span><i
+              <button type="button" class="rounded-pill btn-rounded border-primary">Saber más<span><i
                     class="fas fa-arrow-right"></i></span></button>
             </a>
           </div>
@@ -201,11 +326,13 @@
             <img src="images/services/service-1.png" alt="marketing illustration" class="img-fluid">
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <!-- START THE WEB DEVELOPMENT CONTENT -->
 
-      <div class="row px-0 px-lg-5">
+
+  <!-- START THE WEB DEVELOPMENT CONTENT -->
+
+  <!-- <div class="row px-0 px-lg-5">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services my-auto text-start">
           <div class="services__pic">
             <img src="images/services/service-2.png" alt="web development illustration" class="img-fluid">
@@ -214,70 +341,50 @@
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services my-auto">
           <div class="services__content">
             <div class="icon d-block fas fa-code"></div>
-            <h3 class="display-3--title mt-1">web development</h3>
+            <h3 class="display-3--title mt-1">Marketing Digital </h3>
             <p class="lh-lg">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti culpa sit pariatur cupiditate possimus
-              nulla cum magnam ullam fuga nobis? Vel neque unde maxime cupiditate laborum ducimus dolorum.
+              Impulsamos tu marca hacia el éxito en el mundo digital que generan impacto y resultados comprobados.
             </p>
             <a href="#contact">
-              <button type="button" class="rounded-pill btn-rounded border-primary">Learn more<span><i
+              <button type="button" class="rounded-pill btn-rounded border-primary">Saber más<span><i
                     class="fas fa-arrow-right"></i></span></button>
             </a>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <!-- START THE CLOUD HOSTING CONTENT -->
 
-      <div class="row px-0 px-lg-5">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services my-auto order-1 order-md-0">
-          <div class="services__content">
-            <div class="icon d-block fas fa-cloud-upload-alt"></div>
-            <h3 class="display-3--title mt-1">cloud hosting</h3>
-            <p class="lh-lg">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti culpa sit pariatur cupiditate possimus
-              nulla cum magnam ullam fuga nobis? Vel neque unde maxime cupiditate laborum ducimus dolorum.
-            </p>
-            <a href="#contact">
-              <button type="button" class="rounded-pill btn-rounded border-primary">Learn more<span><i
-                    class="fas fa-arrow-right"></i></span></button>
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services text-end my-auto">
-          <div class="services__pic">
-            <img src="images/services/service-3.png" alt="cloud hosting illustration" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- </div>
+  </section> -->
+
+
 
   <!-- START SECTION 5 - THE TESTIMONIALS -->
 
-  <section id="testimonials" class="testimonials">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+  <!-- <section id="testimonials" class="testimonials"> -->
+  <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#ffffff" fill-opacity="1"
         d="M0,192L48,176C96,160,192,128,288,144C384,160,480,224,576,224C672,224,768,160,864,160C960,160,1056,224,1152,245.3C1248,267,1344,245,1392,234.7L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
       </path>
-    </svg>
-    <div class="container pt-5">
+    </svg> -->
+  <!-- <div class="container pt-5">
       <div class="row text-center text-white mb-5">
         <h1 class="display-3 fw-bold">Testimonials</h1>
         <hr class="mx-auto">
-        <p class="lead pt-1">what our clients are saying</p>
-      </div>
+        <p class="lead pt-1">Desde que empezamos hemos prestado un servicio de confianza a nuestros clientes. Hemos
+          tenido el honor de ser la empresa elegida por las siguientes sociedades:</p>
+      </div> -->
 
-      <!-- START THE CAROUSEL CONTENT -->
-      <div class="row align-items-center">
+  <!-- START THE CAROUSEL CONTENT -->
+  <!-- <div class="row align-items-center">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-          <div class="carousel-inner">
+          <div class="carousel-inner"> -->
 
-            <!-- CAROUSEL ITEM 1 -->
-            <div class="carousel-item active">
+  <!-- CAROUSEL ITEM 1 -->
+  <!-- <div class="carousel-item active"> -->
 
-              <!-- testimonial card -->
-              <div class="testimonials__card mx-auto">
+  <!-- testimonial card -->
+  <!-- <div class="testimonials__card mx-auto">
                 <p class="lh-lg">
                   <i class="fas fa-quote-left"></i>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure error impedit nostrum debitis rem,
@@ -291,25 +398,25 @@
                   <i class="fas fa-star"></i>
                 </div>
                 </p>
-              </div>
+              </div> -->
 
-              <!-- client picture -->
-              <div class="testimonials__picture">
+  <!-- client picture -->
+  <!-- <div class="testimonials__picture">
                 <img src="images/testimonials/client-1.jpg" alt="client-1 picture" class="img-fluid rounded-circle">
-              </div>
+              </div> -->
 
-              <!-- client name and role -->
-              <div class="testimonials__name">
+  <!-- client name and role -->
+  <!-- <div class="testimonials__name">
                 <h3>Simon Schules</h3>
                 <p class="fw-light">CEO & founder</p>
               </div>
-            </div>
+            </div> -->
 
-            <!-- CAROUSEL ITEM 2 -->
-            <div class="carousel-item">
+  <!-- CAROUSEL ITEM 2 -->
+  <!-- <div class="carousel-item"> -->
 
-              <!-- testimonial card -->
-              <div class="testimonials__card mx-auto">
+  <!-- testimonial card -->
+  <!-- <div class="testimonials__card mx-auto">
                 <p class="lh-lg">
                   <i class="fas fa-quote-left"></i>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure error impedit nostrum debitis rem,
@@ -323,27 +430,27 @@
                   <i class="fas fa-star"></i>
                 </div>
                 </p>
-              </div>
+              </div> -->
 
-              <!-- client picture -->
-              <div class="testimonials__picture">
+  <!-- client picture -->
+  <!-- <div class="testimonials__picture">
                 <img src="images/testimonials/client-2.jpg" alt="client-2 picture" class="img-fluid rounded-circle">
-              </div>
+              </div> -->
 
-              <!-- client name and role -->
-              <div class="testimonials__name">
+  <!-- client name and role -->
+  <!-- <div class="testimonials__name">
                 <h3>Stanley Marete</h3>
                 <p class="fw-light">Finance Manager</p>
               </div>
-            </div>
+            </div> -->
 
-            <!-- CAROUSEL ITEM 3 -->
+  <!-- CAROUSEL ITEM 3 -->
 
-            <div class="carousel-item">
+  <!-- <div class="carousel-item"> -->
 
-              <!-- testimonial card -->
+  <!-- testimonial card -->
 
-              <div class="testimonials__card mx-auto">
+  <!-- <div class="testimonials__card mx-auto">
                 <p class="lh-lg">
                   <i class="fas fa-quote-left"></i>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure error impedit nostrum debitis rem,
@@ -357,28 +464,28 @@
                   <i class="fas fa-star"></i>
                 </div>
                 </p>
-              </div>
+              </div> -->
 
-              <!-- client picture -->
-
+  <!-- client picture -->
+  <!-- 
               <div class="testimonials__picture">
                 <img src="images/testimonials/client-3.jpg" alt="client-3 picture" class="img-fluid rounded-circle">
-              </div>
+              </div> -->
 
-              <!-- client name and role -->
-
+  <!-- client name and role -->
+  <!-- 
               <div class="testimonials__name">
                 <h3>Samantha Stevens</h3>
                 <p class="fw-light">Global brand manager</p>
               </div>
-            </div>
+            </div> -->
 
-            <!-- CAROUSEL ITEM 4 -->
+  <!-- CAROUSEL ITEM 4 -->
+  <!-- 
+            <div class="carousel-item"> -->
 
-            <div class="carousel-item">
-
-              <!-- testimonial card -->
-
+  <!-- testimonial card -->
+  <!-- 
               <div class="testimonials__card mx-auto">
                 <p class="lh-lg">
                   <i class="fas fa-quote-left"></i>
@@ -393,17 +500,17 @@
                   <i class="fas fa-star"></i>
                 </div>
                 </p>
-              </div>
+              </div> -->
 
-              <!-- client picture -->
-
+  <!-- client picture -->
+  <!-- 
               <div class="testimonials__picture">
                 <img src="images/testimonials/client-4.jpg" alt="client-4 picture" class="img-fluid rounded-circle">
-              </div>
+              </div> -->
 
-              <!-- client name and role -->
+  <!-- client name and role -->
 
-              <div class="testimonials__name">
+  <!-- <div class="testimonials__name">
                 <h3>Andrew Tate</h3>
                 <p class="fw-light">CEO & Founder</p>
               </div>
@@ -420,205 +527,275 @@
 
         </div>
       </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    </div> -->
+  <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path fill="#ffffff" fill-opacity="1"
         d="M0,192L48,176C96,160,192,128,288,144C384,160,480,224,576,224C672,224,768,160,864,160C960,160,1056,224,1152,245.3C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
       </path>
-    </svg>
+    </svg> -->
+  <!-- </section> -->
+
+
+  <section id="faq" class="faq">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold">¿Por qué nosotros?</h1>
+
+      </div>
+
+      <div class="row mb-5 mt-5">
+        <div class="col-md-6 p-3">
+          <div class="row">
+            <div class="col-md-3  text-end">
+              <!-- Icono -->
+              <i class="fab fa-css3-alt fa-3x"></i>
+            </div>
+            <div class="col-md-9">
+              <!-- Título -->
+              <h2>Agencia 360º</h2>
+              <!-- Texto -->
+              <p>Somos una agencia digital con departamentos integrados de estrategia y marketing digital, diseño de
+                experiencia de usuario y desarrollo web / móvil en la misma agencia. No somos sólo un estudio de diseño
+                gráfico, una agencia de publicidad o una agencia de marketing online, sino que cubrimos todo el espectro
+                de servicios digitales.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+          <div class="row">
+            <div class="col-md-3 text-end">
+              <!-- Icono -->
+              <i class="fab fa-react fa-3x"></i>
+            </div>
+            <div class="col-md-9">
+              <!-- Título -->
+              <h2>Especialistas en proyectos de innovación
+              </h2>
+              <!-- Texto -->
+              <p>Trabajamos con departamentos de innovación de grandes compañías, startups y emprendedores para
+                desarrollar productos y servicios digitales innovadores. Somos expertos en “dar forma a lo nuevo”
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 p-3">
+          <div class="row">
+            <div class="col-md-3 text-end">
+              <!-- Icono -->
+              <i class="fas fa-search fa-3x"></i>
+            </div>
+            <div class="col-md-9">
+              <!-- Título -->
+              <h2>Metodologías ágiles
+              </h2>
+              <!-- Texto -->
+              <p>Aplicamos SCRUM, KANBAN y metodología lean en nuestros proyectos de diseño UX y desarrollo tecnológico,
+                bien sea un sitio web, una aplicación web o una aplicación móvil, con el objetivo de cumplir plazos
+                ajustados y lanzar cada nuevo release en tiempo record.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+          <div class="row">
+            <div class="col-md-3 text-end">
+              <!-- Icono -->
+              <i class="fas fa-bullhorn fa-3x"></i>
+            </div>
+            <div class="col-md-9">
+              <!-- Título -->
+              <h2>Diseño a medida
+              </h2>
+              <!-- Texto -->
+              <p>Para nosotros cada proyecto de diseño es diferente, es necesario partir de 0 y entender los problemas y
+                necesidades del usuario, por lo que no utilizamos plantillas o templates comerciales ni soluciones
+                enlatadas. El diseño de tu proyecto será único y adaptado al journey de tu usuario potencial.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-5 mt-5">
+        <div class="col-md-6 p-3">
+          <div class="row">
+            <div class="col-md-3 text-end">
+              <!-- Icono -->
+              <i class="fas fa-envelope-open-text fa-3x"></i>
+            </div>
+            <div class="col-md-9">
+              <!-- Título -->
+              <h2>Tecnología
+              </h2>
+              <!-- Texto -->
+              <p>Somos una agencia especializada en las últimas tecnologías de desarrollo web y móvil, trabajando todo
+                tipo de CMS y tecnologías opensource, como WordPress, Prestashop, Drupal, Symfony, AngularJS, React,
+                Swift, Kotlin, etc.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 p-3">
+          <div class="row">
+            <div class="col-md-3 text-end">
+              <!-- Icono -->
+              <i class="fas fa-envelope-open-text fa-3x"></i>
+            </div>
+            <div class="col-md-9">
+              <!-- Título -->
+              <h2>Experiencia que garantiza resultados.
+              </h2>
+              <!-- Texto -->
+              <p>Como agencia digital, nuestro equipo de estrategia, diseño y desarrollo cuenta con una amplia
+                experiencia trabajando juntos durante años. Esta sólida trayectoria nos convierte en una gran familia,
+                reflejándose en la calidad de nuestros servicios y resultados."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
+
+
+
+
+
+
 
   <!-- START SECTION 6 - THE FREQUENTLY ASKED QUESTIONS -->
 
   <section id="faq" class="faq">
     <div class="container">
       <div class="row text-center">
-        <h1 class="display-3 fw-bold text-uppercase">Faq</h1>
-        <div class="heading-line"></div>
-        <p class="lead">Frequently asked questions, get knowledge before hand</p>
+        <h1 class="display-3 fw-bold ">Nuestros proyectos</h1>
+        <!-- <div class="heading-line"></div> -->
+        <p class="lead">En cada proyecto, nos esforzamos por alcanzar la excelencia en todas sus etapas. Estos
+          son algunos de nuestros casos de éxito con clientes:</p>
       </div>
 
-      <!-- ACCORDION CONTENT -->
-
-      <div class="row mt-5 faq__accordion mx-auto">
+      <!-- <div class="row">
         <div class="col-md-12">
-          <div class="accordion" id="accordionExample">
+          <div class="gallery-container">
+          
+            <div class="gallery">
+              <img src="images/portfolio/portfolio-9.jpg" alt="Proyecto 2">
+              <img src="images/portfolio/portfolio-9.jpg" alt="Proyecto 2">
+              <img src="images/portfolio/portfolio-9.jpg" alt="Proyecto 2">
+              <img src="images/portfolio/portfolio-9.jpg" alt="Proyecto 2">
+              <img src="images/portfolio/portfolio-9.jpg" alt="Proyecto 2">
+              <img src="images/portfolio/portfolio-9.jpg" alt="Proyecto 2">
+              <img src="images/portfolio/portfolio-9.jpg" alt="Proyecto 2">
+              <img src="images/portfolio/portfolio-9.jpg" alt="Proyecto 2">
 
-            <!-- ACCORDION ITEM 1 -->
 
-            <div class="accordion-item shadow mb-3">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  What are the main features?
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quod iste facilis, quia a odio et
-                  rerum cumque nam soluta eaque accusantium quasi voluptas consequatur perferendis. Qui reiciendis non
-                  repellat architecto perspiciatis suscipit itaque ullam consequatur saepe quidem maiores quos quo,
-                  corporis ad eaque placeat sequi? Dolores architecto, dolor porro quasi accusamus sunt et facilis
-                  impedit repudiandae pariatur omnis! Earum.
-                </div>
-              </div>
+          
             </div>
+          </div>
+        </div>
 
-            <!-- ACCORDION ITEM 2 -->
+      </div>
+    </div>
+    </div>
+    </div>
+  </section> -->
 
-            <div class="accordion-item shadow mb-3">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Do I have to pay again after trial?
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quod iste facilis, quia a odio et
-                  rerum cumque nam soluta eaque accusantium quasi voluptas consequatur perferendis. Qui reiciendis non
-                  repellat architecto perspiciatis suscipit itaque ullam consequatur saepe quidem maiores quos quo,
-                  corporis ad eaque placeat sequi? Dolores architecto, dolor porro quasi accusamus sunt et facilis
-                  impedit repudiandae pariatur omnis! Earum.
-                </div>
-              </div>
+
+
+
+
+  <!-- <section id="blog" class="blog">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold">Blog</h1>
+        <p class="lead">Descubre últimas tendenias y articles</p>
+      </div>
+  
+      <div class="row"> -->
+  <!-- Primera tarjeta -->
+  <!-- <div class="col-md-4">
+          <div class="card mb-4 blog-card">
+            <img src="images/portfolio/portfolio-3.jpg" class="card-img-top" alt="Imagen del artículo 3">
+            <div class="card-body">
+              <h5 class="card-title">Título del artículo 1</h5>
+              <p class="card-text">Descripción corta del artículo 1.</p>
             </div>
+          </div>
+        </div> -->
 
-            <!-- ACCORDION ITEM 3 -->
-
-            <div class="accordion-item shadow mb-3">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  How can I get started after trial?
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quod iste facilis, quia a odio et
-                  rerum cumque nam soluta eaque accusantium quasi voluptas consequatur perferendis. Qui reiciendis non
-                  repellat architecto perspiciatis suscipit itaque ullam consequatur saepe quidem maiores quos quo,
-                  corporis ad eaque placeat sequi? Dolores architecto, dolor porro quasi accusamus sunt et facilis
-                  impedit repudiandae pariatur omnis! Earum.
-                </div>
-              </div>
+  <!-- Segunda tarjeta -->
+  <!-- <div class="col-md-4">
+          <div class="card mb-4 blog-card">
+            <img src="images/portfolio/portfolio-3.jpg" class="card-img-top" alt="Imagen del artículo 3">
+            <div class="card-body">
+              <h5 class="card-title">Título del artículo 2</h5>
+              <p class="card-text">Descripción corta del artículo 2.</p>
             </div>
+          </div>
+        </div> -->
 
-            <!-- ACCORDION ITEM 4 -->
-
-            <div class="accordion-item shadow mb-3">
-              <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Can I be refunded if I am not satisfied?
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quod iste facilis, quia a odio et
-                  rerum cumque nam soluta eaque accusantium quasi voluptas consequatur perferendis. Qui reiciendis non
-                  repellat architecto perspiciatis suscipit itaque ullam consequatur saepe quidem maiores quos quo,
-                  corporis ad eaque placeat sequi? Dolores architecto, dolor porro quasi accusamus sunt et facilis
-                  impedit repudiandae pariatur omnis! Earum.
-                </div>
-              </div>
+  <!-- Tercera tarjeta -->
+  <!-- <div class="col-md-4">
+          <div class="card mb-4 blog-card">
+            <img src="images/portfolio/portfolio-3.jpg" class="card-img-top" alt="Imagen del artículo 3">
+            <div class="card-body">
+              <h5 class="card-title">Título del artículo 3</h5>
+              <p class="card-text">Descripción corta del artículo 3.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
+
+
 
   <!-- START SECTION 7 - THE PORTFOLIO -->
 
   <section id="portfolio" class="portfolio">
-    <div class="container">
+    <!-- <div class="container">
       <div class="row text-center mt-5">
         <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
         <div class="heading-line"></div>
         <p class="lead">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sequi saepe deleniti.
         </p>
-      </div>
+      </div> -->
 
-      <!-- FILTER BUTTONS -->
+    <!-- FILTER BUTTONS -->
 
-      <div class="row mt-5 mb-4 g-3 text-center">
+    <!-- <div class="row mt-5 mb-4 g-3 text-center">
         <div class="col-md-12">
           <button class="btn btn-outline-primary filter-btn active" type="button" id="all">All</button>
           <button class="btn btn-outline-primary filter-btn" type="button" id="website">Website</button>
           <button class="btn btn-outline-primary filter-btn" type="button" id="design">Design</button>
           <button class="btn btn-outline-primary filter-btn" type="button" id="mockup">Mockup</button>
         </div>
-      </div>
+      </div> -->
 
-      <!-- START THE PORTFOLIO ITEMS -->
+    <!-- START THE PORTFOLIO ITEMS -->
+    <section class="container">
 
+   
       <div class="row">
-        <div class="col-lg-4 col-md-6 portfolio-card" data-tags="all, website">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-1.jpg" alt="portfolio 1 image" title="portfolio 1 picture"
-              class="img-fluid">
-            <div class="div portfolio-info">
-              <div class="caption">
-                <a href="images/portfolio/portfolio-1.jpg" class="glightbox2">
-                  <i class="fas fa-magnifying-glass mb-3"></i>
-                </a>
-                <h4>Website project one</h4>
-                <p>website</p>
-              </div>
-            </div>
+        <div class="col-lg-4 col-md-6 portfolio-card " data-tags="all, design">
+          <div class="portfolio-box ">
+              <a href="images/portfolio/portfolio-4.jpg" class="glightbox2">
+                  <img src="images/portfolio/portfolio-4.jpg" alt="portfolio 4 image" title="portfolio 4 picture" class="img-fluid ">
+                  <div class="div portfolio-info">
+                      <div class="caption">
+                          <i class="fas fa-magnifying-glass mb-3"></i>
+                          <h4>Diseño Web</h4>
+                          <p>Estrategia Digital</p>
+                      </div>
+                  </div>
+              </a>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-card" data-tags="all, design">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-2.jpg" alt="portfolio 2 image" title="portfolio 2 picture"
-              class="img-fluid">
-            <div class="div portfolio-info">
-              <div class="caption">
-                <a href="images/portfolio/portfolio-2.jpg" class="glightbox2">
-                  <i class="fas fa-magnifying-glass mb-3"></i>
-                </a>
-                <h4>Design project one</h4>
-                <p>design</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-card" data-tags="all, mockup">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-3.jpg" alt="portfolio 3 image" title="portfolio 3 picture"
-              class="img-fluid">
-            <div class="div portfolio-info">
-              <div class="caption">
-                <a href="images/portfolio/portfolio-3.jpg" class="glightbox2">
-                  <i class="fas fa-magnifying-glass mb-3"></i>
-                </a>
-                <h4>Mockup project one</h4>
-                <p>mockup</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-card" data-tags="all, design">
-          <div class="portfolio-box shadow">
-            <img src="images/portfolio/portfolio-4.jpg" alt="portfolio 4 image" title="portfolio 4 picture"
-              class="img-fluid">
-            <div class="div portfolio-info">
-              <div class="caption">
-                <a href="images/portfolio/portfolio-4.jpg" class="glightbox2">
-                  <i class="fas fa-magnifying-glass mb-3"></i>
-                </a>
-                <h4>Design project two</h4>
-                <p>design</p>
-              </div>
-            </div>
-          </div>
-        </div>
+      </div>
         <div class="col-lg-4 col-md-6 portfolio-card" data-tags="all, website">
           <div class="portfolio-box shadow">
             <img src="images/portfolio/portfolio-5.jpg" alt="portfolio 5 image" title="portfolio 5 picture"
@@ -702,61 +879,57 @@
 
   <section id="contact" class="get-started">
     <div class="container">
-      <div class="row text-center">
-        <h1 class="display-3 fw-bold text-capitalize">Get started</h1>
-        <div class="heading-line"></div>
-        <p class="lh-lg pb-3 pb-md-5">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit velit unde sed.
-        </p>
-      </div>
+      
 
       <!-- START THE CTA CONTENT -->
 
       <div class="row text-white get-started__box">
-        <div class="col-12 col-lg-6 get-started__box--left gradient shadow p-3">
+        <div class="col-12 col-lg-6 get-started__box--left gradient p-3">
           <div class="cta-info w-100">
-            <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
+            <h4 class="display-4 fw-bold">¿Quieres que hablemos?</h4>
             <p class="lh-lg">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, perspiciatis. Eaque nobis eos, soluta
-              esse voluptate et nihil libero aut voluptates!
+              Si te ha gustado lo que has visto y deseas que formemos parte de tu proyecto, estaremos
+encantados de escucharte. Completa el formulario y te responderemos lo antes posible.&quot;
             </p>
-            <h3 class="display-3--brief">What will be the next step?</h3>
+            <h3 class="display-3--brief">¿Cuál será el siguiente paso?</h3>
             <ul class="cta-info__list">
-              <li>We'll prepare the proposal</li>
-              <li>We'll discuss it together</li>
-              <li>Let's start the discussion</li>
+              <li>Prepararemos la propuesta</li>
+              <li>La discutiremos juntos</li>
+              <li>Comencemos la conversación</li>
             </ul>
           </div>
         </div>
-        <div class="col-12 col-lg-6 bg-white get-started__box--right shadow p-3">
-          <div class="form w-100">
-            <h4 class="display-3--title mb-4">Start your project</h4>
+        <div class="col-12 col-lg-6 bg-black get-started__box--right ">
+          <div class="form w-100 ">
+            <h4 class="display-3--title text-white mb-4">Inicia tu Proyecto</h4>
             <form action="#" class="row">
               <div class="col-lg-6 col-md-6 mb-3">
-                <input type="text" placeholder="First Name" id="inputFirstName"
-                  class="shadow form-control-lg form-control">
+                <input type="text" placeholder="Nombre*" id="inputFirstName" class="form-control-lg form-control bg-dark text-white border-0" required>
               </div>
               <div class="col-lg-6 col-md-6 mb-3">
-                <input type="text" placeholder="Last Name" id="inputLastName"
-                  class="shadow form-control-lg form-control">
+                <input type="text" placeholder="Teléfono*" id="inputLastName" class="form-control-lg form-control bg-dark text-white border-0" required>
               </div>
               <div class="col-lg-12 mb-3">
-                <input type="email" placeholder="Email Address" id="inputEmail"
-                  class="shadow form-control-lg form-control">
+                <input type="email" placeholder="Correo Electrónico*" id="inputEmail" class="form-control-lg form-control bg-dark text-white border-0" required>
               </div>
               <div class="col-lg-12 mb-3">
-                <textarea name="message" placeholder="Message" id="message" rows="8"
-                  class="shadow form-control-lg form-control"></textarea>
+                <textarea name="message" placeholder="Tu mensaje..." id="message" rows="8" class="form-control-lg form-control bg-dark text-white border-0" required></textarea>
+              </div>
+              <div class="col-lg-12 mb-3">
+                <label class="form-check-label text-white" for="checkboxPoliticaPrivacidad">
+                  <input type="checkbox" id="checkboxPoliticaPrivacidad" class="form-check-input" required> He leído y acepto la política de privacidad
+                </label>
               </div>
               <div class="text-center d-grid mt-1">
-                <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
-                  Submit
+                <button type="button" class="btn btn-primary  pt-3 pb-3">
+                  Enviar
                   <i class="fas fa-paper-plane"></i>
                 </button>
               </div>
             </form>
           </div>
         </div>
+        
       </div>
     </div>
   </section>
@@ -780,8 +953,8 @@
               <path d="M15 3a6 6 0 0 1 6 6" />
             </svg></div>
           <div class="contact-box__info">
-            <a href="" class="contact-box__info--title">+1 (332) 98104-2205</a>
-            <p class="contact-box__info--subtitle">Mon-Fri 9am-6pm</p>
+            <a href="" class="contact-box__info--title">xxx xx xx xx</a>
+            <p class="contact-box__info--subtitle">Contáctanos</p>
           </div>
         </div>
 
@@ -799,8 +972,8 @@
             </svg>
           </div>
           <div class="contact-box__info">
-            <a href="" class="contact-box__info--title">info@unicornagency.com</a>
-            <p class="contact-box__info--subtitle">Online Support</p>
+            <a href="" class="contact-box__info--title">info@kweb.com</a>
+            <p class="contact-box__info--subtitle">¿Tienes dudas?</p>
           </div>
         </div>
 
@@ -819,8 +992,8 @@
             </svg>
           </div>
           <div class="contact-box__info">
-            <a href="" class="contact-box__info--title">New York, USA</a>
-            <p class="contact-box__info--subtitle">NY 10012, US</p>
+            <a href="" class="contact-box__info--title">Madrid, España</a>
+            <p class="contact-box__info--subtitle">¿Dónde estamos?</p>
           </div>
         </div>
       </div>
@@ -831,15 +1004,19 @@
     <div class="footer-sm">
       <div class="container">
         <div class="row py-4 text-center text-white">
-          <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
-            connect with us on social media
-          </div>
           <div class="col-lg-7 col-md-6">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+            <div class="footer-bottom__copyright">
+              &copy; Copyright 2024 <a href="#">Agency Creative</a>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <div class="footer-bottom__logos">
+              <!-- <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a> -->
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
           </div>
         </div>
       </div>
@@ -850,15 +1027,20 @@
     <div class="container mt-5 company-info px-3">
       <div class="row text-white justify-content-center mt-3 pb-3">
         <div class="col-12 col-sm-6 col-lg-6 mb-4 mb-sm-4 mb-md-0">
-          <h5 class="text-capitalize fw-bold">Unicorn Agency</h5>
+          <h5 class="text-capitalize fw-bold">
+            
+            I&lt;web Agency
+          </h5>
           <hr class="bg-white d-inline-block mb-4">
           <p class="lh-lg pe-md-5">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit dolor veniam temporibus voluptates! Eaque ut
-            atque architecto?
+            Nos enfocamos en impulsar los resultados de tus
+            activos digitales en términos de negocio, visibilidad y retorno. Ajustamos nuestras
+            estrategias a tu presupuesto para obtener mayores beneficios con menos
+            inversión.
           </p>
         </div>
         <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-          <h5 class="text-capitalize fw-bold">Products</h5>
+          <h5 class="text-capitalize fw-bold">Nsosotros</h5>
           <hr class="bg-white d-inline-block mb-4">
           <ul class="list-inline company-list">
             <li><a href="#">lorem ipsum</a></li>
@@ -868,7 +1050,7 @@
           </ul>
         </div>
         <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto pt-md-4 pt-lg-0">
-          <h5 class="text-capitalize fw-bold">Useful Links</h5>
+          <h5 class="text-capitalize fw-bold">Servicios</h5>
           <hr class="bg-white d-inline-block mb-4">
           <ul class="list-inline company-list">
             <li><a href="#">Your Account</a></li>
@@ -878,7 +1060,7 @@
           </ul>
         </div>
         <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto pt-md-4 pt-lg-0">
-          <h5 class="text-capitalize fw-bold">Contact</h5>
+          <h5 class="text-capitalize fw-bold">Contacto</h5>
           <hr class="bg-white d-inline-block mb-4">
           <ul class="list-inline company-list">
             <li><a href="#">lorem ipsum</a></li>
@@ -888,7 +1070,7 @@
           </ul>
         </div>
       </div>
-    </div>
+    </div> 
 
     <!-- START THE COPYRIGHT INFO -->
 
@@ -897,14 +1079,16 @@
         <div class="row text-center text-white">
           <div class="col-12">
             <div class="footer-bottom__copyright">
-              &copy; Copyright 2022 <a href="#">Unicorn Agency</a> <br />
+              &copy; Copyright 2024 <a href="#">Agency Creative</a> <br />
               A project by <a href="https://www.sammyleths.com" target="_blank">SammyLeths</a>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div> 
   </footer>
+
+
 
   <!-- BACK TO TOP BUTTON -->
 
@@ -913,7 +1097,6 @@
   </a>
 
   <script src="/assets/js/bootstrap.bundle.min.js"></script>
-  <script src="/assets/js/custom.js"></script>
 
   <script src="/assets/vendors/js/glightbox.min.js"></script>
 
@@ -931,7 +1114,13 @@
       'width': 900,
       'autoPlayVideos': 'true',
     });
+
+
+
   </script>
+
+  <script src="assets/js/custom.js"></script>
+
 
 </body>
 
