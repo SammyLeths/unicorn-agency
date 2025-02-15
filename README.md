@@ -73,4 +73,5 @@ This template was developed using Bootstrap5, Sass, Fontawesome, JavaScript, HTM
   <li>Portfolio - <a href="https://sammyleths.com" target="_blank">@SammyLeths</a></li>
   <li>Linkedin - <a href="https://www.linkedin.com/in/eyiowuawi/" target="_blank">@SammyLeths</a></li>
   <li>Twitter - <a href="https://twitter.com/SammyLeths" target="_blank">@SammyLeths</a></li>
+  <li>Buy me a Coffee - <a href="https://buymeacoffee.com/sammyleths" target="_blank"> @SammyLeths </a></li>
 </ul>
